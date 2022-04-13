@@ -2,7 +2,10 @@ import "./ImageOverlay.css";
 function ImageOverlay() {
   return (
     <div className="overlay-container">
-      <img src="./assets/hero.webp" alt="Hero" />
+      <img
+        src="https://source.unsplash.com/random/?nature/1920x1080"
+        alt="Hero"
+      />
     </div>
   );
 }
