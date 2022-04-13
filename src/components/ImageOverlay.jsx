@@ -3,7 +3,7 @@ function ImageOverlay() {
   return (
     <div className="overlay-container">
       <img
-        src="https://source.unsplash.com/random/?nature/1920x1080"
+        src="https://source.unsplash.com/random/?space/1366×768"
         alt="Hero"
       />
     </div>
