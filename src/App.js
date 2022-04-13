@@ -1,4 +1,4 @@
-import { ImageOverlay } from "./components/ImageOverlay";
+import { ImageOverlay } from "./components/";
 import "./App.css";
 import { Home } from "./pages/Home";
 

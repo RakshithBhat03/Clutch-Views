@@ -1,4 +1,4 @@
-import { Time } from "../components/Time/Time";
+import { Time } from "../components/";
 import "./Home.css";
 function Home() {
   return (
