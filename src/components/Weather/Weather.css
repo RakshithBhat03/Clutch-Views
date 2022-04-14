@@ -1,0 +1,23 @@
+.weather-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--color-white);
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-temp-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city-temperature {
+  font-size: 1.2rem;
+}
+.weather-city {
+  color: inherit;
+}
