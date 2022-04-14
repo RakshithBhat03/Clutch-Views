@@ -1,0 +1,15 @@
+.time-wrapper {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.display-time {
+  color: var(--color-white);
+  font-size: 10rem;
+}
+
+.btn-time-switch {
+  color: var(--color-white);
+  font-size: 1.5rem;
+}
