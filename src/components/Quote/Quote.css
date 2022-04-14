@@ -1,0 +1,25 @@
+.quote-wrapper {
+  position: absolute;
+  bottom: 0;
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.quote-author {
+  opacity: 0;
+  font-size: 0;
+  color: var(--color-light-gray);
+}
+
+.quote-content {
+  font-size: 1.15rem;
+}
+
+.quote-wrapper:hover > .quote-author {
+  font-size: 0.8rem;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
