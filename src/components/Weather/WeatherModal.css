@@ -1,0 +1,54 @@
+.weather-modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-black);
+  position: absolute;
+  top: 5.5rem;
+  right: 0;
+  color: var(--color-white);
+  border-radius: var(--radius-md);
+  min-width: 15rem;
+  gap: 0.5rem;
+}
+
+.weather-city-modal {
+  font-size: 1.25rem;
+}
+
+.weather-desription-modal {
+  color: var(--color-light-gray);
+  text-transform: capitalize;
+}
+
+.weather-temperature-modal {
+  display: flex;
+  align-items: center;
+}
+
+.city-temperature-modal {
+  font-size: 2.5rem;
+}
+
+.weather-icon-modal {
+  height: 80px;
+  width: 80px;
+}
+
+.min-max-temperature,
+.temperature-additional-info {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.temperature-info {
+  color: var(--color-light-gray);
+  font-size: 0.75rem;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: inherit;
+  font-size: 1.15rem;
+}

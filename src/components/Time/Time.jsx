@@ -16,7 +16,7 @@ function Time() {
       <button
         className="btn-time-switch"
         onClick={() => setTimeIs24Format((state) => !state)}>
-        <i class="fas fa-sync"></i>
+        <i className="fas fa-sync"></i>
       </button>
     </div>
   );
