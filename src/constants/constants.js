@@ -9,3 +9,9 @@ export const DEFAULT_TEMPERATURE = {
   temp_min: "",
   temp: "",
 };
+export const DEFAULT_FOCUS_STATE = {
+  isFocus: false,
+  focusText: "",
+  isChecked: false,
+};
+export const APPRECIATION = ["Great work!", "Good job!", "Way to go!"];
