@@ -14,3 +14,4 @@ export const DEFAULT_FOCUS_STATE = {
   focusText: "",
   isChecked: false,
 };
+export const APPRECIATION = ["Great work!", "Good job!", "Way to go!"];
