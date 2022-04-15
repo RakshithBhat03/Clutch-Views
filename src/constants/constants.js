@@ -15,3 +15,7 @@ export const DEFAULT_FOCUS_STATE = {
   isChecked: false,
 };
 export const APPRECIATION = ["Great work!", "Good job!", "Way to go!"];
+export const DEFAULT_USER_STATE = {
+  userName: "",
+  isRegistered: false,
+};
