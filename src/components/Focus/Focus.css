@@ -46,3 +46,13 @@
 .focus-edit {
   font-size: 1rem;
 }
+
+.focus-appreciation {
+  opacity: 0;
+  font-size: 1.2rem;
+}
+
+.appreciation-active {
+  opacity: 1;
+  transition: 0.5s opacity ease-in;
+}
