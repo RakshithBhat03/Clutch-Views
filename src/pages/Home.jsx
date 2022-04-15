@@ -8,7 +8,7 @@ function Home() {
   const { isRegistered } = user;
   useEffect(() => {
     dispatch({ type: "GET_USER" });
-  }, []);
+  }, [dispatch]);
   return (
     <div className="home-wrapper">
       {!isRegistered ? (
