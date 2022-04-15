@@ -1,0 +1,13 @@
+.onboarding-name {
+  outline: transparent;
+  border: none;
+  border-bottom: 2px solid var(--color-white);
+  width: 100%;
+  font-size: 2rem;
+  background-color: transparent;
+  color: var(--color-white);
+}
+
+.onboarding-text {
+  font-size: 3rem;
+}
