@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# <img src="./build/clutch-views_128.png" alt="Clutch logo" width="25px" height="25px" /> Clutch Views
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<hr />
 
-## Available Scripts
+## Experience a new way to interact with your new tab.
 
-In the project directory, you can run:
+## Deployed at
 
-### `npm start`
+- [Live link](https://clutchviews.netlify.app/)
+- Chrome Web Store (..will be updated)
+- Firefox Store (..will be updated)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Wallpaper changes on every refresh.
+2. Get a new Quote on every refresh.
+3. Auto location detection. Get weather updates based on your location.
+4. Shows time, city and temperature in sync.
+5. Greets the user based on time of the day.
+6. Add main focus for the day.
+   - Add a task that you want to focus for the day.
+   - Edit/Delete the task.
 
-### `npm test`
+## Built using
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- React Router v6
+- ClutchUI component library.
 
-### `npm run build`
+## Learnings
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- UseEffect, UseReducer, UseContext & React Router.
+- Local Storage implementation.
+- Managing states across components.
+- Working with external api's.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Resources
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ClutchUI](https://clutchui.netlify.app)
+- [Open Weather API](https://openweathermap.org/api)
+- [Quotable](https://github.com/lukePeavey/quotable)
+- [Unsplash](https://unsplash.com/)
 
-### `npm run eject`
+## Preview:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](https://res.cloudinary.com/clutchaf/image/upload/v1650220503/ClutchStore/Extension_preview_iofdxd.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<hr/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![](https://res.cloudinary.com/clutchaf/image/upload/v1650220504/ClutchStore/Extension_preview_1_ctx9zp.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<hr/>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](https://res.cloudinary.com/clutchaf/image/upload/v1650220503/ClutchStore/Extension_preview_2_c7l3b7.png)
