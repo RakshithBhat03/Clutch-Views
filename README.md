@@ -1,4 +1,4 @@
-# <img src="./build/clutch-views_128.png" alt="Clutch logo" width="25px" height="25px" /> Clutch Views
+# <img src="./public/assets/clutch-views_128.png" alt="Clutch logo" width="25px" height="25px" /> Clutch Views
 
 <hr />
 
