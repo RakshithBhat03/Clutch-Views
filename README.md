@@ -8,7 +8,7 @@
 
 - [Live link](https://clutchviews.netlify.app/)
 - Chrome Web Store (..will be updated)
-- Firefox Store (..will be updated)
+- [Firefox Store](https://addons.mozilla.org/en-US/firefox/addon/clutch-views/)
 
 ## Features:
 
