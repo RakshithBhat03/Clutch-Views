@@ -7,7 +7,7 @@
 ## Deployed at
 
 - [Live link](https://clutchviews.netlify.app/)
-- Chrome Web Store (..will be updated)
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/clutch-views/falbhgpjkobaapbndaefpiglgcblflem)
 - [Firefox Store](https://addons.mozilla.org/en-US/firefox/addon/clutch-views/)
 
 ## Features:
