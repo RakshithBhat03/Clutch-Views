@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ClutchViews",
   "author": "Rakshith Bhat",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Experience a new way to interact with your new tab.",
   "chrome_url_overrides": {
     "newtab": "index.html"
