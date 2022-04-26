@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Time, Quote, Weather, Focus } from "../components/";
+import { Time, Quote, Weather, Focus, Todo } from "../components/";
 import { Onboarding } from "../components/Onboarding/Onboarding";
 import { UseUser } from "../context/User";
 import "./Home.css";
@@ -19,6 +19,7 @@ function Home() {
           <Focus />
           <Quote />
           <Weather />
+          <Todo />
         </>
       )}
     </div>
