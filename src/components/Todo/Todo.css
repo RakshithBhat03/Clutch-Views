@@ -1,0 +1,9 @@
+.todo {
+  bottom: 0;
+  right: 0;
+  font-size: 1.15rem;
+}
+
+.todo:hover {
+  cursor: pointer;
+}
