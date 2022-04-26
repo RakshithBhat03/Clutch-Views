@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./Todo.css";
-import "./TodoModal";
 import { TodoModal } from "./TodoModal";
 function Todo() {
   const [showModal, setShowModal] = useState(false);
