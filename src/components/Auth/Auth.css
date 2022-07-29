@@ -1,0 +1,16 @@
+.auth-wrapper {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.btn-auth {
+  border: 1px solid var(--color-white);
+  border-radius: 5px;
+}
+.btn-tab {
+  border-radius: 5px;
+}
+.tab-highlight {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
