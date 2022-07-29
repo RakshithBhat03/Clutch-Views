@@ -1,7 +1,7 @@
 import "./Greeting.css";
-import { UseUser } from "../../context/User";
+import { useUser } from "../../context";
 function Greeting({ hours }) {
-  const { user } = UseUser();
+  const { user } = useUser();
   const greeting =
     (hours < 12 && `Morning`) ||
     (hours < 17 && `Afternoon`) ||

@@ -1,7 +1,7 @@
-import { UseUser } from "../../context/User";
+import { useUser } from "../../context";
 import "./Onboarding.css";
 function Onboarding() {
-  const { user, dispatch } = UseUser();
+  const { user, dispatch } = useUser();
   const { userName } = user;
   return (
     <div className="onboarding display-flex flex-col align-items-center gap-2">

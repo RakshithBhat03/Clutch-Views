@@ -1,10 +1,11 @@
 import { useEffect } from "react";
 import { Time, Quote, Weather, Focus, Todo } from "../components/";
+import { Auth } from "../components/Auth/Auth";
 import { Onboarding } from "../components/Onboarding/Onboarding";
-import { UseUser } from "../context/User";
+import { useUser } from "../context";
 import "./Home.css";
 function Home() {
-  const { user, dispatch } = UseUser();
+  const { user, dispatch } = useUser();
   const { isRegistered } = user;
   useEffect(() => {
     dispatch({ type: "GET_USER" });
@@ -15,6 +16,7 @@ function Home() {
         <Onboarding />
       ) : (
         <>
+          <Auth />
           <Time />
           <Focus />
           <Quote />
