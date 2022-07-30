@@ -1,0 +1,49 @@
+.login-wrapper {
+  min-width: 25rem;
+  /* padding-block: 5rem; */
+}
+.form-input {
+  background-color: transparent;
+  border-radius: 5px;
+  outline: transparent;
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+.btn-password-visibility {
+  position: absolute;
+  font-size: 1rem;
+  right: 1rem;
+  top: 12px;
+  color: var(--color-white);
+}
+.form-btn {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  opacity: 0.9;
+  font-size: 1.2rem;
+}
+.form-btn-secondary {
+  background-color: transparent;
+  opacity: 0.9;
+  font-size: 1rem;
+  border: 1px solid var(--color-white);
+  padding-block: 1rem;
+}
+::placeholder {
+  color: var(--color-white);
+  opacity: 0.6;
+  font-style: italic;
+  text-transform: initial;
+}
+.btn-redirect {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.btn-redirect:hover {
+  color: var(--color-black);
+}
+.btn-guest-login {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}

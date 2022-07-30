@@ -1,0 +1,12 @@
+.icon-success {
+  font-size: 8rem;
+}
+.btn-continue {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  opacity: 0.9;
+  font-size: 1.2rem;
+}
+.txt-success {
+  font-size: 1.5rem;
+}
